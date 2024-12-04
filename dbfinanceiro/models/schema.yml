@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: dbfinanceiro
+    schema: public
+    tables:
+      - name: tickers
+        description: "Tabela contendo dados historicos de valores"
+        columns:
+          - name: Date
+            description: "Data de observacao"
+          - name: Open
+            description: "Valor de abertura"
+          - name: High
+            description: "Maior valor"
+          - name: Low
+            description: "Menor valor"
+          - name: Close
+            description: "Valor de fechamento"
+          - name: simbolo
+            description: "Simbolo do ticker" 
+      - name: operacoes
+        description: "Tabela contendo dados historicos das operacoes"
+        columns:
+          - name: Date
+            description: "Data de observacao"
+          - name: simbolo
+            description: "Simbolo do ticker" 
+          - name: actions
+            description: "Tipo de movimento"
+          - name: quantity
+            description: "Quantidade de ativos"
