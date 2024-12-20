@@ -1,0 +1,8 @@
+pandas==2.1.4
+numpy
+python-dotenv
+psycopg2
+psycopg2-binary
+yfinance
+boto3
+pyarrow

@@ -1,6 +1,0 @@
-pandas
-numpy
-sqlalchemy
-python-dotenv
-psycopg2-binary
-yfinance
